@@ -1,0 +1,111 @@
+/* =========================
+   Global Styles
+   ========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* =========================
+   Header
+   ========================= */
+header {
+    background: #0077cc;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* =========================
+   Navigation
+   ========================= */
+nav {
+    background: #005fa3;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: #004a80;
+}
+
+/* =========================
+   Main Content
+   ========================= */
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   Buttons
+   ========================= */
+.btn {
+    display: inline-block;
+    background: #0077cc;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #005fa3;
+}
+
+/* =========================
+   Footer
+   ========================= */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+/* =========================
+   Responsive Design
+   ========================= */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        padding: 1rem;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+If you want, I can also give you a more advanced style.css with animations and CSS grid layout for a modern UI.
+Do you want me to prepare that?
+
